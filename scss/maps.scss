@@ -1,0 +1,7 @@
+@import './variables.scss';
+
+@each $red, $color in $rrss {
+    .#{$red}{
+        background-color: $color;
+    }
+}

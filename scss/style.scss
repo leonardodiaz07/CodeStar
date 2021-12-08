@@ -1,0 +1,185 @@
+@import './variables.scss';
+@import './operaciones.scss';
+@import './each.scss';
+@import './maps.scss';
+
+/* Nav Bar */
+
+.logo{
+    width: 100px
+}
+.logo{
+    background-image: url();
+}
+
+.btn.btn-outline-success{
+    color: white ;
+    border-color: $colorPrincipal;
+ }
+ 
+ .btn.btn-outline-success:hover{
+     background-color: $colorPrincipal;
+     border-color:white;
+ }
+
+
+.titulo{
+    color:$colorPrincipal;
+    font-size: 70px;
+}
+.subTitulo{
+    color: $colorSecundario;
+    font-size: 35px;
+}
+.tituloCon{
+    color:$colorSecundario;
+    font-size: 55px;
+}
+
+.subTituloCon{
+    color: $colorPrincipal;
+    font-size: 30px;
+}
+
+.subTituloConDos{
+    color:$colorTerciario;
+    font-size: 18px;
+}
+
+.tituloServ{
+    color: $colorPrincipal;
+    font-size: 55px;
+}
+
+.subTitServ{
+    color:$colorTerciario;
+}
+
+.sectionUno{
+    padding: 100px 0px 90px;
+}
+
+.sectionDos{
+    padding: 120px 0px 90px;
+}
+
+.sectionTres{
+    padding: 120px 0px 90px;
+}
+
+.imagenUno{
+    width: 100%;
+}
+
+/* Formulario Contacto */
+
+.contact{
+    background-image: url(https://fondosmil.com/fondo/20929.jpg);
+    background-size: 100% 100%;
+    width: 100%;
+    height: 100vh;
+}
+
+.head{
+    background-color: rgb(15, 79, 199);
+    border-radius: 5px;
+    margin-top: -40px;
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(26,110,184,1);
+-moz-box-shadow: 10px 10px 5px 0px rgba(26,110,184,1);
+box-shadow: 10px 10px 5px 0px rgba(26,110,184,1);
+}
+ 
+/* Seccion Nosotros */
+.nosotros{
+    .titulo__nosotros{
+        color:$colorPrincipal;
+        text-align: center;
+
+    }
+    .descripcion__nosotros{
+        color:$colorSecundario;
+        font-family: sans-serif;
+
+    }
+
+    .imagen__nosotros{
+        display: block;
+        margin: auto;
+        width:500px;
+        height: auto;
+        
+    }
+
+}
+
+.nosotros2{
+    .titulo__nosotros2{
+        color: $colorPrincipal;
+        text-align: center;
+
+    }
+    .descripcion__nosotros2{
+        color: $colorPrincipal;
+        font-family: sans-serif;
+
+    }
+
+    .imagen__nosotros2{
+        display: block;
+        margin: auto;
+        width:500px;
+        height: auto;
+        
+    }
+
+
+}
+
+/* Seccion Portfolio */
+
+.portfolio{
+    .titulo__portfolio{
+        color:$colorPrincipal;
+        text-align: center;
+
+    }
+    .descripcion__portfolio {
+        color:$colorSecundario;
+        font-family: sans-serif;
+
+    }
+
+    .imagen__portfolio{
+        display: block;
+        margin: auto;
+        width:500px;
+        height: auto;
+        
+    }
+
+
+}
+
+.portfolio2{
+    .titulo__portfolio2{
+        color:$colorPrincipal;
+        text-align: center;
+
+    }
+    .descripcion__portfolio2{
+        color: $colorSecundario;
+        font-family: sans-serif;
+
+    }
+
+    .imagen__portfolio2{
+        display: block;
+        margin: auto;
+        width:500px;
+        height: auto;
+        
+    }
+
+
+}
+
