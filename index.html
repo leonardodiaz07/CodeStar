@@ -26,16 +26,16 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
               <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                 <li class="nav-item">
-                  <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+                  <a class="nav-link active text-white" aria-current="page" href="#">Inicio</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="./pages/nosotros.html">Sobre Nosotros</a>
+                  <a class="nav-link nosotros text-white" href="./pages/nosotros.html">Sobre Nosotros</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link " aria-current="page" href="#">Portfolio</a>
+                  <a class="nav-link text-white" aria-current="page" href="./pages/portfolio.html">Portfolio</a>
                 </li>
                 <li class="nav-item dropdown">
-                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Servicios</a>
+                  <a class="nav-link dropdown-toggle text-white" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Servicios</a>
                   <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                     <li><a class="dropdown-item" href="#">Desarrollo Web</a></li>
                     <li><a class="dropdown-item" href="#">Redes Sociales</a></li>
@@ -44,7 +44,7 @@
                   </ul>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="./pages/contacto.html">Contacto</a>
+                  <a class="nav-link text-white" href="./pages/contacto.html">Contacto</a>
                 </li>
                 <li class="nav-item">
                   <a class="nav-link disabled"></a>
@@ -57,19 +57,19 @@
 
     <!--Contenido Principal  -->
     
-    <div class="container sectionUno">
+    <div class="container-fluid sectionUno">
       <div class="row">
         <div class="col oneText">
           <h1 class="titulo">Agencia dedicada al Desarrollo Web.</h1>
             <h2 class="subTitulo">Tu web ideal a la distancia de un click</h2>
         </div>
         <div class="col">
-          <img class="img-fluid" src="./images/Fotoprincipal.jpg" alt="personas trabajando"  />
+          <img class="img-fluid imgInicio" src="./images/Fotoprincipal.jpg" alt="personas trabajando"/>
         </div>
       </div>
     </div>
       
-    <div class="container row sectionDos">
+    <div class="container-fluid row sectionDos">
         <div class="col twoText">
           <h2 class="tituloCon">Conocenos</h2>
           <h4 class="subTituloCon">Somos una Agencia dedicada al Desarrollo Web, enfocada en dar
@@ -79,12 +79,12 @@
             productos y servicios de manera rentable.</h6>
         </div>
         <div class="col">
-          <img src="./images/Conocenos.jpg" alt="varias personas trabajando en equipo" class="img-fluid imagenUno"/>
+          <img src="./images/Conocenos.jpg" alt="varias personas trabajando en equipo" class="img-fluid imgCon"/>
         </div>
       </div>
     </div>
       
-    <div class="container row sectionTres">
+    <div class="container-fluid row sectionTres">
         <div class="col threeText">
           <h2 class="tituloServ">Nuestros Servicios</h2>
           <h4 class="subTitServ">Nuestras habilidades son nuestra mayor ventaja. Logramos que el
@@ -100,82 +100,69 @@
     
     <!-- Formulario Contacto -->
 
-    <!-- <form class="col-md-2 col-lg-2 col-xl-7 mx-auto mt-3">
-      <div class="col-md-6">
-        <label for="inputEmail4" class="form-label">Correo</label>
-        <input type="email" class="form-control" id="inputEmail4">
-      </div>
-      <div class="col-md-6">
-        <label for="inputPassword4" class="form-label">Contraseña</label>
-        <input type="password" class="form-control" id="inputPassword4">
-      </div>
-      <div class="col-6">
-        <label for="inputAddress" class="form-label">Dirección</label>
-        <input type="text" class="form-control" id="inputAddress" placeholder="">
-      </div>
-      
-      <div class="col-12">
-        <div class="form-check">
-          <input class="form-check-input" type="checkbox" id="gridCheck">
-          <label class="form-check-label" for="gridCheck">
-            Acepto los Terminos y Condiciones
-          </label>
-        </div>
-      </div>
-      <div class="col-12">
-        <button type="submit" class="btn btn-primary">Enviar</button>
-      </div>
-    </form>
- -->
-
- <section class="contact text-center">
-    <div class="container py-5">
-      <div class="row">
-        <div class="col-lg-6 mx-auto"></div>
-          <div class="card">
-            <div class="card-body">
-              <div class="row">
-                <div class="col-lg-12">
-                  <div class="head text-center text-white py-3">
-                    <h3>Contáctanos</h3>
-                  </div>
-
-                </div>
-                
-              </div>
-              <div class="form py-3">
-                <div class="form-row my-5">
-                  <div class="col-lg-6">
-                    <input type="text" class="effect-1" placeholder="Ingrese su Nombre">
-                    <span class="Focus-border"></span>
-                  </div>
-                  
-                  <div class="col-lg-6">
-                    <input type="text" class="effect-1" placeholder="Ingrese su Apellido">
-                    <span class="Focus-border"></span>
-                  </div>
-                  
-                </div>
-              </div>
-              <div class="form-row pb-4">
-                <div class="col-lg-12">
-                  <input type="text" class="effect-1" placeholder="Ingrese su Correo">
-                    <span class="Focus-border"></span>
-                </div>
-              </div>
-          
-            </div>
-        </div>
-        <div class="form-row">
-          <div class="col-lg-12">
-            <input type="text" class="effect-1" placeholder="Ingrese su Consulta">
-                    <span class="Focus-border"></span>
-          </div>
-        </div>
+ <form class="row g-3 contact">
+  <div class="col-md-4">
+    <label for="validationServer01" class="form-label text-white">Nombre</label>
+    <input type="text" class="form-control is-valid" id="validationServer01" placeholder="Su nombre aquí" value="" required>
+    <div class="valid-feedback">
+      Correcto!
+    </div>
+  </div>
+  <div class="col-md-4">
+    <label for="validationServer02" class="form-label text-white">Apellido</label>
+    <input type="text" class="form-control is-valid" id="validationServer02" placeholder="Su apellido aquí" value="" required>
+    <div class="valid-feedback">
+      Correcto!
+    </div>
+  </div>
+  <div class="col-md-4">
+    <label for="validationServerUsername" class="form-label text-white">E-mail</label>
+    <div class="input-group has-validation">
+      <span class="input-group-text" id="inputGroupPrepend3">@</span>
+      <input type="text" class="form-control is-invalid" id="validationServerUsername" aria-describedby="inputGroupPrepend3 validationServerUsernameFeedback" placeholder="Su correo aquí" required>
+      <div id="validationServerUsernameFeedback" class="invalid-feedback">
+        Campo obligatorio.
       </div>
     </div>
- </section>
-
+  </div>
+  <div class="col-md-6">
+    <label for="validationServer03" class="form-label text-white">País</label>
+    <input type="text" class="form-control is-invalid" id="validationServer03" aria-describedby="validationServer03Feedback" required>
+    <div id="validationServer03Feedback" class="invalid-feedback">
+      Campo obligatorio.
+    </div>
+  </div>
+    
+  <div class="col-md-6">
+    <label for="validationServer05" class="form-label text-white">Ciudad</label>
+    <input type="text" class="form-control is-invalid" id="validationServer05" aria-describedby="validationServer05Feedback" required>
+    <div id="validationServer05Feedback" class="invalid-feedback">
+      Campo obligatorio.
+    </div>
+  </div>
+  <div class="mb-3">
+      <label for="validationTextarea" class="form-label text-white">Su consulta.</label>
+      <textarea class="form-control is-invalid" id="validationTextarea" placeholder="Por favor, ingrese su consulta aquí" required></textarea>
+      <div class="invalid-feedback">
+        Campo obligatorio.
+      </div>
+    </div>
+  </div>
+  <div class="col-12">
+    <div class="form-check">
+      <input class="form-check-input is-invalid" type="checkbox" value="" id="invalidCheck3" aria-describedby="invalidCheck3Feedback" required>
+      <label class="form-check-label" for="invalidCheck3">
+        Acepto los Términos y Condiciones
+      </label>
+      <div id="invalidCheck3Feedback" class="invalid-feedback">
+        Debes estar de acuerdo antes de enviar.
+      </div>
+    </div>
+  </div>
+  <div class="col-12">
+    <button class="btn btn-secondary" type="submit">Enviar</button>
+  </div>
+</form>
 
     <!-- Footer -->
     <footer class="bg-secondary text-white pt-5 pb-4">

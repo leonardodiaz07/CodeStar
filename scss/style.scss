@@ -13,13 +13,13 @@
 }
 
 .btn.btn-outline-success{
-    color: white ;
+    color: $colorCuaternario;
     border-color: $colorPrincipal;
  }
  
  .btn.btn-outline-success:hover{
      background-color: $colorPrincipal;
-     border-color:white;
+     border-color:$colorCuaternario;
  }
 
 
@@ -56,28 +56,26 @@
 }
 
 .sectionUno{
-    padding: 100px 0px 90px;
+    padding: 100px;
 }
 
 .sectionDos{
-    padding: 120px 0px 90px;
+    padding: 100px;
 }
 
 .sectionTres{
     padding: 120px 0px 90px;
 }
 
-.imagenUno{
-    width: 100%;
-}
 
 /* Formulario Contacto */
 
 .contact{
-    background-image: url(https://fondosmil.com/fondo/20929.jpg);
+    background-image: url(https://fondosmil.com/fondo/23194.jpg);
     background-size: 100% 100%;
     width: 100%;
     height: 100vh;
+    padding: 100px;
 }
 
 .head{
@@ -110,42 +108,45 @@ box-shadow: 10px 10px 5px 0px rgba(26,110,184,1);
         
     }
 
+
 }
 
-.nosotros2{
+
+
+
     .titulo__nosotros2{
-        color: $colorPrincipal;
-        text-align: center;
-
+        color: $colorPrincipal
     }
+    
     .descripcion__nosotros2{
-        color: $colorPrincipal;
+        color: $colorSecundario;
         font-family: sans-serif;
-
-    }
-
-    .imagen__nosotros2{
-        display: block;
-        margin: auto;
-        width:500px;
-        height: auto;
+        font-size: 20px;
         
+
+    }
+    
+    .descripcionNosotros3{
+        font-size: 30px;
     }
 
-
-}
+    .descripcionNosotros4{
+        font-size: 20px;
+        color: $colorSecundario;
+    }
 
 /* Seccion Portfolio */
 
-.portfolio{
-    .titulo__portfolio{
+
+    .titulo__portfolio1{
         color:$colorPrincipal;
-        text-align: center;
+        
 
     }
-    .descripcion__portfolio {
+    .descripcion__portfolio{
         color:$colorSecundario;
         font-family: sans-serif;
+        
 
     }
 
@@ -158,14 +159,11 @@ box-shadow: 10px 10px 5px 0px rgba(26,110,184,1);
     }
 
 
-}
-
-.portfolio2{
     .titulo__portfolio2{
         color:$colorPrincipal;
-        text-align: center;
 
     }
+
     .descripcion__portfolio2{
         color: $colorSecundario;
         font-family: sans-serif;
@@ -181,5 +179,5 @@ box-shadow: 10px 10px 5px 0px rgba(26,110,184,1);
     }
 
 
-}
+
 

@@ -10,23 +10,43 @@
   <body>
     <!--Inicio Menu-->
     <header>
-      <nav class="menu">
-        <img class="logo" src="../images/logopag.jpeg" alt="logo">
-        <ul class="menuItems">
-          <li><a href="../index.html">Inicio</li></a>
-          <li><a href="nosotros.html">Nosotros</a></li>
-          <li><a href="servicios.html">Servicios</a>
-          <ul>
-            <li><a href="#">Desarrollo Web</a></li>
-            <li><a href="#">Redes Sociales</a></li>
-          </ul>
-          </li>
-          <li><a href="portfolio.html">Portfolio</a></li>
-          <li><a href="contacto.html">Contacto</a></li>
-          <li><input class="boton" type="submit" value="Solicitar Presupuesto"></li>
-        </ul>
-      </nav>
-    </header>
+      <nav class="navbar navbar-expand-lg navbar-light bg-secondary">
+          <div class="container-fluid">
+            <a class="navbar-brand"  href="#"> <img class="logo" src="../images/logopag.jpeg" alt="logo de la página"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                  <a class="nav-link active text-white" aria-current="page" href="../index.html">Inicio</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-white" href="nosotros.html">Sobre Nosotros</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-white" aria-current="page" href="portfolio.html">Portfolio</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle text-white" href="servicios.html" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Servicios</a>
+                  <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <li><a class="dropdown-item" href="#">Desarrollo Web</a></li>
+                    <li><a class="dropdown-item" href="#">Redes Sociales</a></li>
+                    <li><hr class="dropdown-divider"></li>
+                    <li><a class="dropdown-item" href="contacto.html">Solicitar Pesupuesto</a></li>
+                  </ul>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-white" href="contacto.html">Contacto</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link disabled"></a>
+                </li>
+              </ul>
+              <a  class="botonPres" href="contacto.html"><button class="btn btn-outline-success" >Solicitar Presupuesto</button></a>
+           </div>
+          </div>
+  </header>
 
     <footer>
       <div class="containerFooterAll">
