@@ -50,10 +50,10 @@
 
 .btn.btn-outline-success {
   color: white;
-  border-color: #0c67cf; }
+  border-color: white; }
 
 .btn.btn-outline-success:hover {
-  background-color: #0c67cf;
+  background-color: gray;
   border-color: white; }
 
 .titulo {
@@ -84,20 +84,20 @@
   color: gray; }
 
 .sectionUno {
-  padding: 100px; }
+  padding: 30px; }
 
 .sectionDos {
-  padding: 100px; }
+  padding: 30px; }
 
 .sectionTres {
-  padding: 120px 0px 90px; }
+  padding: 30px; }
 
 /* Formulario Contacto */
 .contact {
   background-image: url(https://fondosmil.com/fondo/23194.jpg);
   background-size: 100% 100%;
-  width: 100%;
-  height: 100vh;
+  /* width: 100%; */
+  height: 100%;
   padding: 100px; }
 
 .head {
@@ -164,3 +164,6 @@
   margin: auto;
   width: 500px;
   height: auto; }
+
+.logofooter:hover {
+  content: url("/images/logoblack.png"); }

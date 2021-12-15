@@ -14,11 +14,11 @@
 
 .btn.btn-outline-success{
     color: $colorCuaternario;
-    border-color: $colorPrincipal;
+    border-color: $colorCuaternario;
  }
  
  .btn.btn-outline-success:hover{
-     background-color: $colorPrincipal;
+     background-color: $colorTerciario;
      border-color:$colorCuaternario;
  }
 
@@ -56,15 +56,15 @@
 }
 
 .sectionUno{
-    padding: 100px;
+    padding: 30px;
 }
 
 .sectionDos{
-    padding: 100px;
+    padding: 30px;
 }
 
 .sectionTres{
-    padding: 120px 0px 90px;
+    padding: 30px;
 }
 
 
@@ -73,9 +73,12 @@
 .contact{
     background-image: url(https://fondosmil.com/fondo/23194.jpg);
     background-size: 100% 100%;
-    width: 100%;
-    height: 100vh;
+    /* width: 100%; */
+    height: 100%;
     padding: 100px;
+    
+    
+    
 }
 
 .head{
@@ -110,9 +113,6 @@ box-shadow: 10px 10px 5px 0px rgba(26,110,184,1);
 
 
 }
-
-
-
 
     .titulo__nosotros2{
         color: $colorPrincipal
@@ -180,4 +180,7 @@ box-shadow: 10px 10px 5px 0px rgba(26,110,184,1);
 
 
 
+.logofooter:hover{
+    content:url("/images/logoblack.png");
+}
 
