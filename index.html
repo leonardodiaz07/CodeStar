@@ -17,7 +17,7 @@
   <body>
     <!-- Menú Navegación -->
     <header>
-      <nav class="navbar navbar-expand-lg navbar-light bg-primary">
+      <nav class="navbar navbar-expand-lg navbar-light bg-primary ">
           <div class="container-fluid">
             <a class="navbar-brand"  href="#"> <img class="logo" src="./images/logopag2.png" alt="logo de la página"></a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -98,53 +98,54 @@
     </div>
     
     
-    <!-- Formulario Contacto -->
+   <!-- Formulario Contacto -->
 
- <form class="row small  g-3 contact">
-  <div class="col-md-12">
-    <label for="validationServer01" class="form-label text-white">Nombre</label>
-    <input type="text" class="form-control is-valid" id="validationServer01" placeholder="Su nombre aquí" value="" required>
-    <div class="valid-feedback">
-      Correcto!
+ 
+  <form class="row g-3 contact container-fluid">
+    <div class="col-md-12">
+      <label for="validationServer01" class="form-label text-white">Nombre</label>
+      <input type="text" class="form-control is-valid" id="validationServer01" placeholder="Su nombre aquí" value="" required>
+      <div class="valid-feedback">
+        Correcto!
+      </div>
     </div>
-  </div>
-  <div class="col-md-12">
-    <label for="validationServer02" class="form-label text-white">Apellido</label>
-    <input type="text" class="form-control is-valid" id="validationServer02" placeholder="Su apellido aquí" value="" required>
-    <div class="valid-feedback">
-      Correcto!
+    <div class="col-md-12">
+      <label for="validationServer02" class="form-label text-white">Apellido</label>
+      <input type="text" class="form-control is-valid" id="validationServer02" placeholder="Su apellido aquí" value="" required>
+      <div class="valid-feedback">
+        Correcto!
+      </div>
     </div>
-  </div>
-  <div class="col-md-12">
-    <label for="validationServerUsername" class="form-label text-white">E-mail</label>
-    <div class="input-group has-validation">
-      <span class="input-group-text" id="inputGroupPrepend3">@</span>
-      <input type="text" class="form-control is-invalid" id="validationServerUsername" aria-describedby="inputGroupPrepend3 validationServerUsernameFeedback" placeholder="Su correo aquí" required>
-      <div id="validationServerUsernameFeedback" class="invalid-feedback">
+    <div class="col-md-12">
+      <label for="validationServerUsername" class="form-label text-white">E-mail</label>
+      <div class="input-group has-validation">
+        <span class="input-group-text" id="inputGroupPrepend3">@</span>
+        <input type="text" class="form-control is-invalid" id="validationServerUsername" aria-describedby="inputGroupPrepend3 validationServerUsernameFeedback" placeholder="Su correo aquí" required>
+        <div id="validationServerUsernameFeedback" class="invalid-feedback">
+          Campo obligatorio.
+        </div>
+      </div>
+    </div>
+    <div class="col-md-12">
+      <label for="validationServer03" class="form-label text-white">País</label>
+      <input type="text" class="form-control is-invalid" id="validationServer03" aria-describedby="validationServer03Feedback" placeholder="Su país aquí" required>
+      <div id="validationServer03Feedback"  class="invalid-feedback" >
         Campo obligatorio.
       </div>
     </div>
-  </div>
-  <div class="col-md-12">
-    <label for="validationServer03" class="form-label text-white">País</label>
-    <input type="text" class="form-control is-invalid" id="validationServer03" aria-describedby="validationServer03Feedback" placeholder="Su país aquí" required>
-    <div id="validationServer03Feedback"  class="invalid-feedback" >
-      Campo obligatorio.
-    </div>
-  </div>
-  <div class="mb-12">
-      <label for="validationTextarea" class="form-label text-white">Su consulta.</label>
-      <textarea class="form-control is-invalid" id="validationTextarea" placeholder="Por favor, ingrese su consulta aquí" required></textarea>
-      <div class="invalid-feedback">
-        Campo obligatorio.
+    <div class="mb-3">
+        <label for="validationTextarea" class="form-label text-white">Su consulta.</label>
+        <textarea class="form-control is-invalid" id="validationTextarea" placeholder="Por favor, ingrese su consulta aquí" required></textarea>
+        <div class="invalid-feedback">
+          Campo obligatorio.
+        </div>
       </div>
     </div>
-  </div>
-  </div>
-  <div class="col-12">
-    <button class="btn btn-secondary" type="submit">Enviar</button>
-  </div>
-</form>
+    </div>
+    <div class="col-12">
+      <button class="btn btn-secondary" type="submit">Enviar</button>
+    </div>
+  </form>
 
     <!-- Footer -->
   
